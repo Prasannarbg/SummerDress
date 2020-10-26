@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-26T00:34:33Z" name="Suite" finished-at="2020-10-26T00:34:39Z" duration-ms="6188">
+    <groups>
+    </groups>
+    <test started-at="2020-10-26T00:34:33Z" name="Test" finished-at="2020-10-26T00:34:39Z" duration-ms="6188">
+      <class name="com.Elsevier.Test.TestClass">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:27Z" name="setUP" finished-at="2020-10-26T00:34:33Z" duration-ms="5954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:33Z" name="Init" finished-at="2020-10-26T00:34:33Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="Test_001_toVerifyHomePageTitleisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:33Z" name="Test_001_toVerifyHomePageTitleisDisplayed" finished-at="2020-10-26T00:34:33Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_001_toVerifyHomePageTitleisDisplayed -->
+        <test-method signature="Test_002_toVerifySearchSummerItemisDisplayedandItemisSelected()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:33Z" name="Test_002_toVerifySearchSummerItemisDisplayedandItemisSelected" finished-at="2020-10-26T00:34:35Z" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_002_toVerifySearchSummerItemisDisplayedandItemisSelected -->
+        <test-method signature="Test_003_toVerifyPriceofItemisDisplayedCorrectly()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:35Z" name="Test_003_toVerifyPriceofItemisDisplayedCorrectly" finished-at="2020-10-26T00:34:35Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_003_toVerifyPriceofItemisDisplayedCorrectly -->
+        <test-method signature="Test_004_toVerifyAddtocartTitleisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:35Z" name="Test_004_toVerifyAddtocartTitleisDisplayed" finished-at="2020-10-26T00:34:35Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_004_toVerifyAddtocartTitleisDisplayed -->
+        <test-method signature="Test_005_toVerifySearchItemHeadingisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:35Z" name="Test_005_toVerifySearchItemHeadingisDisplayed" finished-at="2020-10-26T00:34:35Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_005_toVerifySearchItemHeadingisDisplayed -->
+        <test-method signature="Test_006_toVerifyAddtocartPriceItemisdisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:35Z" name="Test_006_toVerifyAddtocartPriceItemisdisplayed" finished-at="2020-10-26T00:34:35Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_006_toVerifyAddtocartPriceItemisdisplayed -->
+        <test-method signature="Test_007_toAddtoCartandVerifytheProductPriceintheCart()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:35Z" name="Test_007_toAddtoCartandVerifytheProductPriceintheCart" finished-at="2020-10-26T00:34:36Z" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_007_toAddtoCartandVerifytheProductPriceintheCart -->
+        <test-method signature="Test_008_toVerifytheProductAddedConfirmMessage()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:36Z" name="Test_008_toVerifytheProductAddedConfirmMessage" finished-at="2020-10-26T00:34:36Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_008_toVerifytheProductAddedConfirmMessage -->
+        <test-method signature="Test_009_toVerifytheNoOfItemInTheCartMessage()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:36Z" name="Test_009_toVerifytheNoOfItemInTheCartMessage" finished-at="2020-10-26T00:34:36Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_009_toVerifytheNoOfItemInTheCartMessage -->
+        <test-method signature="Test_010_toVerifytheShippingPriceintheCart()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:36Z" name="Test_010_toVerifytheShippingPriceintheCart" finished-at="2020-10-26T00:34:36Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_010_toVerifytheShippingPriceintheCart -->
+        <test-method signature="Test_011_toVerifytheTotalPriceintheCart()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:36Z" name="Test_011_toVerifytheTotalPriceintheCart" finished-at="2020-10-26T00:34:36Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_011_toVerifytheTotalPriceintheCart -->
+        <test-method signature="Test_012_toVerifytheSelectedItemIsAddedCart()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:36Z" name="Test_012_toVerifytheSelectedItemIsAddedCart" finished-at="2020-10-26T00:34:37Z" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_012_toVerifytheSelectedItemIsAddedCart -->
+        <test-method signature="Test_013_toVerifyShoppingCartTitleisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_013_toVerifyShoppingCartTitleisDisplayed" finished-at="2020-10-26T00:34:37Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_013_toVerifyShoppingCartTitleisDisplayed -->
+        <test-method signature="Test_014_toVerifyShoppingCartHeadingisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_014_toVerifyShoppingCartHeadingisDisplayed" finished-at="2020-10-26T00:34:37Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_014_toVerifyShoppingCartHeadingisDisplayed -->
+        <test-method signature="Test_015_toVerifyShoppingCartContainsNumberOfItemisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_015_toVerifyShoppingCartContainsNumberOfItemisDisplayed" finished-at="2020-10-26T00:34:37Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_015_toVerifyShoppingCartContainsNumberOfItemisDisplayed -->
+        <test-method signature="Test_016_toVerifyShoppingCartContainsNumberOfItemisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_016_toVerifyShoppingCartContainsNumberOfItemisDisplayed" finished-at="2020-10-26T00:34:37Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_016_toVerifyShoppingCartContainsNumberOfItemisDisplayed -->
+        <test-method signature="Test_017_toVerifyShoppingCartTotalProductItemPrice()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_017_toVerifyShoppingCartTotalProductItemPrice" finished-at="2020-10-26T00:34:37Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_017_toVerifyShoppingCartTotalProductItemPrice -->
+        <test-method signature="Test_018_toVerifyShoppingCartTotalShippingPrice()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_018_toVerifyShoppingCartTotalShippingPrice" finished-at="2020-10-26T00:34:37Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_018_toVerifyShoppingCartTotalShippingPrice -->
+        <test-method signature="Test_019_toVerifyShoppingCartTotalPrice()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_019_toVerifyShoppingCartTotalPrice" finished-at="2020-10-26T00:34:37Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_019_toVerifyShoppingCartTotalPrice -->
+        <test-method signature="Test_020_toVerifyNavigateToSignInPageandTitleisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:37Z" name="Test_020_toVerifyNavigateToSignInPageandTitleisDisplayed" finished-at="2020-10-26T00:34:39Z" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_020_toVerifyNavigateToSignInPageandTitleisDisplayed -->
+        <test-method signature="Test_021_toVerifySignInPageheadingisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:39Z" name="Test_021_toVerifySignInPageheadingisDisplayed" finished-at="2020-10-26T00:34:39Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_021_toVerifySignInPageheadingisDisplayed -->
+        <test-method signature="Test_022_toVerifyCreateLoginheadingisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:39Z" name="Test_022_toVerifyCreateLoginheadingisDisplayed" finished-at="2020-10-26T00:34:39Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_022_toVerifyCreateLoginheadingisDisplayed -->
+        <test-method signature="Test_023_toVerifyAlreadyRegisterPageheadingisDisplayed()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:39Z" name="Test_023_toVerifyAlreadyRegisterPageheadingisDisplayed" finished-at="2020-10-26T00:34:39Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_023_toVerifyAlreadyRegisterPageheadingisDisplayed -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Elsevier.Test.TestClass@7283d3eb]" started-at="2020-10-26T00:34:39Z" name="TearDown" finished-at="2020-10-26T00:34:39Z" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Elsevier.Test.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

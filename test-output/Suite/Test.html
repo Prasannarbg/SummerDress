@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 26 00:34:33 GMT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6188 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_001_toVerifyHomePageTitleisDisplayed()'><b>Test_001_toVerifyHomePageTitleisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_002_toVerifySearchSummerItemisDisplayedandItemisSelected()'><b>Test_002_toVerifySearchSummerItemisDisplayedandItemisSelected</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>2</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_003_toVerifyPriceofItemisDisplayedCorrectly()'><b>Test_003_toVerifyPriceofItemisDisplayedCorrectly</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_004_toVerifyAddtocartTitleisDisplayed()'><b>Test_004_toVerifyAddtocartTitleisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_005_toVerifySearchItemHeadingisDisplayed()'><b>Test_005_toVerifySearchItemHeadingisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_006_toVerifyAddtocartPriceItemisdisplayed()'><b>Test_006_toVerifyAddtocartPriceItemisdisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_007_toAddtoCartandVerifytheProductPriceintheCart()'><b>Test_007_toAddtoCartandVerifytheProductPriceintheCart</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_008_toVerifytheProductAddedConfirmMessage()'><b>Test_008_toVerifytheProductAddedConfirmMessage</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_009_toVerifytheNoOfItemInTheCartMessage()'><b>Test_009_toVerifytheNoOfItemInTheCartMessage</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_010_toVerifytheShippingPriceintheCart()'><b>Test_010_toVerifytheShippingPriceintheCart</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_011_toVerifytheTotalPriceintheCart()'><b>Test_011_toVerifytheTotalPriceintheCart</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_012_toVerifytheSelectedItemIsAddedCart()'><b>Test_012_toVerifytheSelectedItemIsAddedCart</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_013_toVerifyShoppingCartTitleisDisplayed()'><b>Test_013_toVerifyShoppingCartTitleisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_014_toVerifyShoppingCartHeadingisDisplayed()'><b>Test_014_toVerifyShoppingCartHeadingisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_015_toVerifyShoppingCartContainsNumberOfItemisDisplayed()'><b>Test_015_toVerifyShoppingCartContainsNumberOfItemisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_016_toVerifyShoppingCartContainsNumberOfItemisDisplayed()'><b>Test_016_toVerifyShoppingCartContainsNumberOfItemisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_017_toVerifyShoppingCartTotalProductItemPrice()'><b>Test_017_toVerifyShoppingCartTotalProductItemPrice</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_018_toVerifyShoppingCartTotalShippingPrice()'><b>Test_018_toVerifyShoppingCartTotalShippingPrice</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_019_toVerifyShoppingCartTotalPrice()'><b>Test_019_toVerifyShoppingCartTotalPrice</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_020_toVerifyNavigateToSignInPageandTitleisDisplayed()'><b>Test_020_toVerifyNavigateToSignInPageandTitleisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>1</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_021_toVerifySignInPageheadingisDisplayed()'><b>Test_021_toVerifySignInPageheadingisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_022_toVerifyCreateLoginheadingisDisplayed()'><b>Test_022_toVerifyCreateLoginheadingisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+<tr>
+<td title='com.Elsevier.Test.TestClass.Test_023_toVerifyAlreadyRegisterPageheadingisDisplayed()'><b>Test_023_toVerifyAlreadyRegisterPageheadingisDisplayed</b><br>Test class: com.Elsevier.Test.TestClass</td>
+<td></td>
+<td>0</td>
+<td>com.Elsevier.Test.TestClass@7283d3eb</td></tr>
+</table><p>
+</body>
+</html>
