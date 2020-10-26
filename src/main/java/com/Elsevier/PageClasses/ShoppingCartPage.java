@@ -11,80 +11,76 @@ public class ShoppingCartPage extends BasePage {
 
 	WebDriver driver;
 	HelperAction HelperAction;
-	
+
 	public ShoppingCartPage(WebDriver _driver) {
 		super(_driver);
-		this.driver=_driver;
-		
+		this.driver = _driver;
+
 	}
-	
-	//WebElement Region
-	
+
+	// WebElement Region
+
 	@FindBy(id = "cart_title")
 	WebElement txtshopingPageHeadingElement;
-	
+
 	@FindBy(linkText = "Printed Summer Dress")
 	WebElement txtItemDescriptionElement;
-	
+
 	@FindBy(id = "total_product")
 	WebElement txtshopingtotalproductElement;
-	 
+
 	@FindBy(id = "total_shipping")
 	WebElement txtshopingtotalshippingElement;
-	
+
 	@FindBy(id = "total_price")
 	WebElement txtshopingtotalpriceElement;
-	
+
 	@FindBy(linkText = "Proceed to checkout")
 	WebElement btnProceedToCheckOut;
-	
-	
+
 	// Action method Region
-	
+
 	public String getTitle() {
-		
-	return 	driver.getTitle();
+
+		return driver.getTitle();
 	}
-	
+
 	public String getHeadingText() {
-		
-	return 	txtshopingPageHeadingElement.getText().substring(0, 21);
+
+		return txtshopingPageHeadingElement.getText().substring(0, 21);
 	}
-	
+
 	public String getShoppingCartText() {
-		
-		return 	txtshopingPageHeadingElement.getText().substring(22);
+
+		return txtshopingPageHeadingElement.getText().substring(22);
 	}
-		
-	 
+
 	public String getShoppingItemDescription() {
-		
-		return 	txtItemDescriptionElement.getText();
+
+		return txtItemDescriptionElement.getText();
 	}
-	
-	
+
 	public String getShoppingTotalProductItemPrice() {
-		
-		return 	txtshopingtotalproductElement.getText();
+
+		return txtshopingtotalproductElement.getText();
 	}
-	
+
 	public String getShoppingItemShippingPrice() {
-		
-		return 	txtshopingtotalshippingElement.getText();
+
+		return txtshopingtotalshippingElement.getText();
 	}
 
 	public String getShoppingTotalPrice() {
-	
-	return 	txtshopingtotalpriceElement.getText();
-}
-	 
-	
+
+		return txtshopingtotalpriceElement.getText();
+	}
+
 	// Navigation Region
-	
+
 	public LoginPage clickToProceedToCheckOut() {
-		
-	  	btnProceedToCheckOut.click();
-	  	return new LoginPage(driver);
-}
+
+		btnProceedToCheckOut.click();
+		return new LoginPage(driver);
+	}
 
 }

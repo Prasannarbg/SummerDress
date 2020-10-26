@@ -176,19 +176,19 @@ public class TestClass extends BaseClass {
 		assertEquals(titePage, "Login - My Store");
 
 	}
-	
+
 	@Test
 	public void Test_021_toVerifySignInPageheadingisDisplayed() {
 		assertEquals(loginPage.getLoginPageHeading(), "AUTHENTICATION");
 
 	}
-	
+
 	@Test
 	public void Test_022_toVerifyCreateLoginheadingisDisplayed() {
 		assertEquals(loginPage.getCreateLoginHeading(), "CREATE AN ACCOUNT");
 
 	}
-	
+
 	@Test
 	public void Test_023_toVerifyAlreadyRegisterPageheadingisDisplayed() {
 		assertEquals(loginPage.getAlreadyRegHeading(), "ALREADY REGISTERED?");

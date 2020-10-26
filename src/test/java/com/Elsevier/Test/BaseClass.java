@@ -13,29 +13,29 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 
 	public static WebDriver driver;
- 	String URL = "http://automationpractice.com/index.php";
-	
+	String URL = "http://automationpractice.com/index.php";
+
 	@BeforeSuite
 	public void setUP() {
-		
+
 		WebDriverManager.chromedriver().setup();
-		
+
 		driver = new ChromeDriver();
 		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		
+
 	}
-	
+
 	@AfterSuite
 	public void TearDown() {
-		
-	 driver.close();
+
+		driver.close();
 	}
-	
+
 	public static void timeDelay() {
-		
+
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	}
-	
+
 }
